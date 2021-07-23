@@ -17,13 +17,13 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO EDU",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              "WELCOME TO CRAYON",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
             ),
             SizedBox(height: size.height * 0.05),
             SvgPicture.asset(
               "assets/icons/chat.svg",
-              height: size.height * 0.45,
+              height: size.height * 0.4,
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
